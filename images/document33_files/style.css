@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(../images/gray-.jpg);
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.6;
+}
+#effect{
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+#effect h1{
+    font-size: 50px;
+    color:#808080;
+}
+#effect p{
+    font-size: 20px;
+    color:rgb(151, 150, 150);
+}
+#effect .button{
+    font-size: 18px;
+    text-decoration: none;
+    color: grey;
+    border:grey 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;  
+     
+}
+#effect .button:hover{
+    background: grey;
+    color: #fff;
+}
+#section-a{
+    color: grey;
+}
+
+#section-c{
+    display: flex;
+}
+#section-c .box-1, #section-c .box-3{
+    background-color: #fff;
+    color: #808080;
+    text-align: center;
+}
+#section-c .box-2{
+    background:#808080;
+    color: #fff;
+    text-align: center;
+}
+#section-a{
+    background: #808080;
+    color: #fff;
+    text-align: center;
+}
+#section-b{
+    padding: 20px;
+    color:#fff;
+    background: grey;
+    text-align: center;
+}
+.menu-bar{
+    text-align:center ;
+    background-color: gray;
+}
+.menu-bar ul{
+    display:inline-flex;
+    list-style: none;
+    
+
+}
+.menu-bar ul li{
+    width: 130Spx;
+    margin: 20px;
+    padding: 20px;
+    font-style: italic;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;   
+}
+.menu-bar ul li :hover{
+background: #000000;
+border-radius: 2px;
+padding:3PX 3px;
+margin: 6px;
+}
